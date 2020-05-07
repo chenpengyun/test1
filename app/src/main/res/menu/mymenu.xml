@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/qunliao"
+        android:icon="@drawable/group"
+        android:title="发起群聊">
+    </item>
+    <item android:id="@+id/addfriend"
+        android:icon="@drawable/adduser"
+        android:title="添加朋友">
+    </item>
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/scan"
+        android:title="扫一扫"></item>
+    <item android:id="@+id/money"
+        android:icon="@drawable/money"
+        android:title="收付款">
+    </item>
+    <item
+        android:title="寻求帮助"
+        android:id="@+id/help"
+        android:icon="@drawable/help"
+        >
+    </item>
+
+</menu>

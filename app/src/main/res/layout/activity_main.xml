@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:background="@drawable/bg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:text="欢迎使用CPY的APP"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:minLines="2"
+            android:text="&#12288;&#12288;如果你已经拥有本APP的账户，请点击登录按钮，进行登录.
+            \n\n\n&#12288;&#12288;如果你还没有本APP的账户，请点击注册按钮，进行注册"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"/>
+
+       <!-- <TableRow
+            android:paddingTop="30dp"
+            android:gravity="center">
+            <TextView/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号："
+                android:gravity="center"
+                android:textSize="28dp"
+                />
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="请输入账号或者邮箱"/>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <TextView />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码："
+                android:gravity="center"
+                android:textSize="28dp"
+                />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="请输入6-16位数字或者字母"
+                />
+            <TextView/>
+        </TableRow>
+        <TableRow-->
+            android:gravity="center"
+            android:layout_marginTop="30dp">
+            <TextView/>
+            <Button
+                android:id="@+id/btregister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28dp"
+                android:layout_marginTop="50dp"
+                android:text="注册"
+                />
+
+            <Button
+                android:id="@+id/btlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FF8247"
+                android:layout_marginTop="30dp"
+                android:text="登录"
+                android:textSize="28dp" />
+
+            <TextView  />
+        <TableRow>
+            <TextView/>
+            <TextView/>
+            <TextView
+                android:id="@+id/wangjimima"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="忘记密码？"
+                android:gravity="right"
+                android:textColor="#FF4500"
+                android:textSize="18dp"/>
+            <TextView/>
+
+
+        </TableRow>
+        <!-- <Button
+             android:id="@+id/testbt"
+             android:text="这是一个测试按钮"
+             android:textSize="20dp"/>-->
+        <!-- <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/map"
+             android:text="地图"/>-->
+    </TableLayout>
+
+
+</RelativeLayout>
